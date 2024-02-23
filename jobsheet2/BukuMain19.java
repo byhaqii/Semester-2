@@ -15,5 +15,9 @@ public class BukuMain19 {
         Buku19 bk2 = new Buku19("Self Reward", "Maheerea Ayesha", 160, 29, 59000);
         bk2.terjual(11);
         bk2.tampilinformasi();
+
+        Buku19 bukubaq = new Buku19("Baihaqi Sukses", "Baihaqi Rizal", 160, 29, 100000);
+        bukubaq.terjual(15);
+        bukubaq.tampilinformasi();
     }
 }

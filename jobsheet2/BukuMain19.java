@@ -9,6 +9,9 @@ public class BukuMain19 {
 
         bk1.tampilinformasi();
         bk1.terjual(5);
+        System.out.println("Harga yang terjual = "+bk1.hitungHargaTotal(5));
+        System.out.println("Diskon = "+bk1.hitungDiskon(5));
+        System.out.println("Bayar = "+bk1.hitungHargaBayar(5));
         bk1.gantiHarga(60000);
         bk1.tampilinformasi();
 
